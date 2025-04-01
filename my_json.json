@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Project 1",
+    "time": "2025-04-01",
+    "description": "This is the first project in the series. It demonstrates a basic setup of a Laravel application.",
+    "flow_detail": "The project follows a simple MVC architecture with basic authentication.",
+    "image_path": "/images/project1_overview.png",
+    "additional_info": "This project is a starting point for building more complex Laravel applications."
+  },
+  {
+    "title": "Project 2",
+    "time": "2025-04-02",
+    "description": "This project includes advanced features like file uploads and user management.",
+    "flow_detail": "It showcases file handling, user registration, and login with role-based access control.",
+    "image_path": "/images/project2_overview.png",
+    "additional_info": "You can easily extend this project with more advanced features like permissions."
+  },
+  {
+    "title": "Project 3",
+    "time": "2025-04-03",
+    "description": "A RESTful API built using Laravel, with JWT authentication for secure endpoints.",
+    "flow_detail": "This project focuses on building a secure backend API with authentication and authorization.",
+    "image_path": "/images/project3_overview.png",
+    "additional_info": "Ideal for building mobile apps or frontend frameworks that need secure API access."
+  },
+  {
+    "title": "Project 4",
+    "time": "2025-04-04",
+    "description": "A blog application with basic CRUD functionality and comment sections.",
+    "flow_detail": "The project follows a simple CRUD structure for posts and comments, with a user-friendly interface.",
+    "image_path": "/images/project4_overview.png",
+    "additional_info": "You can expand this project by adding features like tags or categories for posts."
+  },
+  {
+    "title": "Project 5",
+    "time": "2025-04-05",
+    "description": "A Laravel-based e-commerce platform with product catalog and shopping cart.",
+    "flow_detail": "This project showcases the basics of e-commerce, including product display, cart management, and checkout.",
+    "image_path": "/images/project5_overview.png",
+    "additional_info": "Expand this project with payment gateways and order tracking."
+  },
+  {
+    "title": "Project 6",
+    "time": "2025-04-06",
+    "description": "An inventory management system for tracking products, suppliers, and sales.",
+    "flow_detail": "It covers basic inventory management, order processing, and product tracking.",
+    "image_path": "/images/project6_overview.png",
+    "additional_info": "Great for businesses that need to manage stock levels and suppliers efficiently."
+  },
+  {
+    "title": "Project 7",
+    "time": "2025-04-07",
+    "description": "A Laravel-based real-time chat application using WebSockets.",
+    "flow_detail": "The project uses Laravel Echo and Pusher to enable real-time messaging between users.",
+    "image_path": "/images/project7_overview.png",
+    "additional_info": "Perfect for adding a chat feature to your website or application."
+  },
+  {
+    "title": "Project 8",
+    "time": "2025-04-08",
+    "description": "A task management app where users can create, assign, and track tasks.",
+    "flow_detail": "This project includes task creation, assignment, and tracking with due dates and priorities.",
+    "image_path": "/images/project8_overview.png",
+    "additional_info": "Useful for teams to manage their projects and tasks efficiently."
+  },
+  {
+    "title": "Project 9",
+    "time": "2025-04-09",
+    "description": "A social media platform where users can create profiles, follow each other, and post updates.",
+    "flow_detail": "Users can create profiles, post updates, follow other users, and comment on posts.",
+    "image_path": "/images/project9_overview.png",
+    "additional_info": "Could be a foundation for building a full-fledged social media network."
+  },
+  {
+    "title": "Project 10",
+    "time": "2025-04-10",
+    "description": "An event management system where users can create, join, and manage events.",
+    "flow_detail": "This system allows users to create events, register for them, and receive notifications.",
+    "image_path": "/images/project10_overview.png",
+    "additional_info": "Ideal for organizing conferences, meetups, and community events."
+  },
+  {
+    "title": "Project 11",
+    "time": "2025-04-11",
+    "description": "A Laravel-based CRM for managing customer relationships and sales pipelines.",
+    "flow_detail": "This project provides a complete solution for managing customer information, sales leads, and opportunities.",
+    "image_path": "/images/project11_overview.png",
+    "additional_info": "Perfect for small to medium-sized businesses looking to streamline their sales processes."
+  },
+  {
+    "title": "Project 12",
+    "time": "2025-04-12",
+    "description": "A photo gallery application where users can upload, share, and organize photos.",
+    "flow_detail": "It includes the ability to upload photos, create albums, and share them with others.",
+    "image_path": "/images/project12_overview.png",
+    "additional_info": "Extend this project by adding image editing features or cloud storage support."
+  },
+  {
+    "title": "Project 13",
+    "time": "2025-04-13",
+    "description": "A learning management system (LMS) where instructors can upload courses, and students can enroll.",
+    "flow_detail": "This project supports course creation, enrollment, and progress tracking for students.",
+    "image_path": "/images/project13_overview.png",
+    "additional_info": "Ideal for online learning platforms or corporate training solutions."
+  },
+  {
+    "title": "Project 14",
+    "time": "2025-04-14",
+    "description": "A news aggregation platform that pulls articles from multiple sources and displays them in categories.",
+    "flow_detail": "Users can browse news by categories like sports, technology, or health, with articles from various sources.",
+    "image_path": "/images/project14_overview.png",
+    "additional_info": "You can extend this by adding user comments, ratings, or saving articles for later."
+  },
+  {
+    "title": "Project 15",
+    "time": "2025-04-15",
+    "description": "A fitness tracking app where users can log workouts, track progress, and set fitness goals.",
+    "flow_detail": "The project allows users to log workouts, track calories burned, and monitor progress towards fitness goals.",
+    "image_path": "/images/project15_overview.png",
+    "additional_info": "Add integration with wearable devices for real-time tracking and personalized fitness plans."
+  }
+]
