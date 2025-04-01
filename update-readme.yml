@@ -1,0 +1,31 @@
+name: Update README from JSON
+
+on:
+  push:
+    paths:
+      - 'my_json.json'  # This is the path to your JSON file.
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README.md from JSON
+        run: |
+          # Create an initial README structure
+          echo "# Laravel Projects Documentation" > README.md
+          echo "This document provides an overview of the projects in this repository." >> README.md
+          echo "" >> README.md
+          
+          # Using jq to parse JSON and append to README
+          jq -r '.[] | "## \(.title)\n\n**Time:** \(.time)\n\n**Description:** \(.description)\n\n**Flow Details:** \(.flow_detail)\n\n**Additional Info:** \(.additional_info // "")\n\n"' my_json.json >> README.md
+          
+      - name: Commit and push updated README.md
+        run: |
+          git config --global user.name 'Your GitHub Username'
+          git config --global user.email 'your-email@example.com'
+          git add README.md
+          git commit -m "Update README from JSON"
+          git push
